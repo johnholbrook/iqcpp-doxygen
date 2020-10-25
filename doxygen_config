@@ -38,7 +38,7 @@ PROJECT_NAME           = "VEXcode IQ C++ Headers"
 # could be handy for archiving the generated documentation or if some version
 # control system is used.
 
-PROJECT_NUMBER         = 2020.08.1
+# PROJECT_NUMBER         = 2020.08.1
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer a
@@ -160,7 +160,7 @@ INLINE_INHERITED_MEMB  = NO
 # shortest path that makes the file name unique will be used
 # The default value is: YES.
 
-FULL_PATH_NAMES        = YES
+FULL_PATH_NAMES        = NO
 
 # The STRIP_FROM_PATH tag can be used to strip a user-defined part of the path.
 # Stripping is only done if one of the specified strings matches the left-hand
@@ -838,7 +838,7 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  =
+INPUT                  = "/Applications/VEXcode IQ.app/Contents/Resources/sdk/vexiq/include"
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -1048,7 +1048,7 @@ USE_MDFILE_AS_MAINPAGE =
 # also VERBATIM_HEADERS is set to NO.
 # The default value is: NO.
 
-SOURCE_BROWSER         = NO
+SOURCE_BROWSER         = YES
 
 # Setting the INLINE_SOURCES tag to YES will include the body of functions,
 # classes and enums directly into the documentation.
@@ -1164,7 +1164,7 @@ GENERATE_HTML          = YES
 # The default directory is: html.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_OUTPUT            = ./
+HTML_OUTPUT            = docs
 
 # The HTML_FILE_EXTENSION tag can be used to specify the file extension for each
 # generated HTML page (for example: .htm, .php, .asp).
@@ -1756,32 +1756,6 @@ GENERATE_AUTOGEN_DEF   = NO
 
 GENERATE_PERLMOD       = NO
 
-# If the PERLMOD_LATEX tag is set to YES, doxygen will generate the necessary
-# Makefile rules, Perl scripts and LaTeX code to be able to generate PDF and DVI
-# output from the Perl module output.
-# The default value is: NO.
-# This tag requires that the tag GENERATE_PERLMOD is set to YES.
-
-PERLMOD_LATEX          = NO
-
-# If the PERLMOD_PRETTY tag is set to YES, the Perl module output will be nicely
-# formatted so it can be parsed by a human reader. This is useful if you want to
-# understand what is going on. On the other hand, if this tag is set to NO, the
-# size of the Perl module output will be much smaller and Perl will parse it
-# just the same.
-# The default value is: YES.
-# This tag requires that the tag GENERATE_PERLMOD is set to YES.
-
-PERLMOD_PRETTY         = YES
-
-# The names of the make variables in the generated doxyrules.make file are
-# prefixed with the string contained in PERLMOD_MAKEVAR_PREFIX. This is useful
-# so different doxyrules.make files included by the same Makefile don't
-# overwrite each other's variables.
-# This tag requires that the tag GENERATE_PERLMOD is set to YES.
-
-PERLMOD_MAKEVAR_PREFIX =
-
 #---------------------------------------------------------------------------
 # Configuration options related to the preprocessor
 #---------------------------------------------------------------------------
@@ -2215,3 +2189,4 @@ GENERATE_LEGEND        = YES
 # This tag requires that the tag HAVE_DOT is set to YES.
 
 DOT_CLEANUP            = YES
+PROJECT_NUMBER = 2.0.1.257
