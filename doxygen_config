@@ -172,7 +172,7 @@ FULL_PATH_NAMES        = NO
 # will be relative from the directory where doxygen is started.
 # This tag requires that the tag FULL_PATH_NAMES is set to YES.
 
-STRIP_FROM_PATH        =
+STRIP_FROM_PATH        = "/Applications/VEXcode IQ.app/Contents/Resources"
 
 # The STRIP_FROM_INC_PATH tag can be used to strip a user-defined part of the
 # path mentioned in the documentation of a class, which tells the reader which
@@ -2190,7 +2190,3 @@ GENERATE_LEGEND        = YES
 
 DOT_CLEANUP            = YES
 
-PROJECT_NUMBER = "for VEXcode IQ version 2.0.1.257"
-PROJECT_NUMBER = "for version 2.0.1.257"
-PROJECT_NUMBER = "for version 2.0.1.257"
-PROJECT_NUMBER = "for version 2.0.1.257"
