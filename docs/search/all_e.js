@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['object_82',['object',['../classvex_1_1vision_1_1object.html',1,'vex::vision::object'],['../classvex_1_1vision_1_1object.html#ac15ebaf53479adb0d3aec59ba4caae27',1,'vex::vision::object::object()']]],
+  ['object_82',['object',['../classvex_1_1vision_1_1object.html#ac15ebaf53479adb0d3aec59ba4caae27',1,'vex::vision::object::object()'],['../classvex_1_1vision_1_1object.html',1,'vex::vision::object']]],
   ['objectcount_83',['objectCount',['../classvex_1_1vision.html#ada9d4dd15bf55cccd1a268cd19defa43',1,'vex::vision']]],
   ['objectdetected_84',['objectDetected',['../classvex_1_1colorsensor.html#af09422024bde958c97137946eda2f852',1,'vex::colorsensor::objectDetected()'],['../classvex_1_1sonar.html#a520e0c95eb7fde51e4b07243fbe4aaa3',1,'vex::sonar::objectDetected()']]],
   ['objects_85',['objects',['../classvex_1_1vision.html#a2f6bf1225e29f86f3b92ae699ccaeda7',1,'vex::vision']]],
