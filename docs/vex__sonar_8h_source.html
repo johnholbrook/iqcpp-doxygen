@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="iqcpp.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">VEXcode IQ C++
-   &#160;<span id="projectnumber">Unofficial documentation for version 2.0.8.296</span>
+   &#160;<span id="projectnumber">Unofficial documentation for version 2.2.0.413</span>
    </div>
   </td>
  </tr>
@@ -103,7 +103,7 @@ $(function() {
 <div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classvex_1_1sonar.html#af6fcccf63ed5c8737304eb2ef925fa46">   42</a></span>&#160;        int32_t         <a class="code" href="classvex_1_1sonar.html#af6fcccf63ed5c8737304eb2ef925fa46">value</a>();</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="comment">// settings</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">void</span>            setMaximum( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1sonar.html#a5a13892b1b29ed9bd1f3e8bf6ab871fb">distance</a>, distanceUnits units );</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">void</span>            setMaximum( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1distance.html">distance</a>, distanceUnits units );</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classvex_1_1sonar.html#a5a13892b1b29ed9bd1f3e8bf6ab871fb">   52</a></span>&#160;        <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1sonar.html#a5a13892b1b29ed9bd1f3e8bf6ab871fb">distance</a>( distanceUnits units );</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
@@ -126,17 +126,18 @@ $(function() {
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;          EVENT_CHANGED  = 2</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        };</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordtype">void</span>            setMinimum( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1sonar.html#a5a13892b1b29ed9bd1f3e8bf6ab871fb">distance</a>, distanceUnits units );</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordtype">void</span>            setMinimum( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1distance.html">distance</a>, distanceUnits units );</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordtype">void</span>            setFilter( uint32_t <a class="code" href="classvex_1_1sonar.html#af6fcccf63ed5c8737304eb2ef925fa46">value</a> );</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordtype">void</span>            setBrightnessThreshold( uint32_t <a class="code" href="classvex_1_1sonar.html#af6fcccf63ed5c8737304eb2ef925fa46">value</a> );</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        uint32_t        distanceToRaw( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1sonar.html#a5a13892b1b29ed9bd1f3e8bf6ab871fb">distance</a>, distanceUnits units );</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        uint32_t        distanceToRaw( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1distance.html">distance</a>, distanceUnits units );</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordtype">double</span>          rawToDistance( uint32_t raw, distanceUnits units );</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  };</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;};</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// VEX_SONAR_CLASS_H</span></div>
 <div class="ttc" id="aclassvex_1_1device_html"><div class="ttname"><a href="classvex_1_1device.html">vex::device</a></div><div class="ttdef"><b>Definition:</b> <a href="vex__device_8h_source.html#l00026">vex_device.h:26</a></div></div>
+<div class="ttc" id="aclassvex_1_1distance_html"><div class="ttname"><a href="classvex_1_1distance.html">vex::distance</a></div><div class="ttdoc">Use the distance class to control the distance sensor.</div><div class="ttdef"><b>Definition:</b> <a href="vex__distance_8h_source.html#l00026">vex_distance.h:26</a></div></div>
 <div class="ttc" id="aclassvex_1_1sonar_html"><div class="ttname"><a href="classvex_1_1sonar.html">vex::sonar</a></div><div class="ttdef"><b>Definition:</b> <a href="vex__sonar_8h_source.html#l00026">vex_sonar.h:26</a></div></div>
 <div class="ttc" id="aclassvex_1_1sonar_html_a520e0c95eb7fde51e4b07243fbe4aaa3"><div class="ttname"><a href="classvex_1_1sonar.html#a520e0c95eb7fde51e4b07243fbe4aaa3">vex::sonar::objectDetected</a></div><div class="ttdeci">void objectDetected(void(*callback)(void))</div><div class="ttdoc">Calls a function when the sonar detect an object.</div></div>
 <div class="ttc" id="aclassvex_1_1sonar_html_a5a13892b1b29ed9bd1f3e8bf6ab871fb"><div class="ttname"><a href="classvex_1_1sonar.html#a5a13892b1b29ed9bd1f3e8bf6ab871fb">vex::sonar::distance</a></div><div class="ttdeci">double distance(distanceUnits units)</div><div class="ttdoc">Gets the value of the sonar sensor.</div></div>
