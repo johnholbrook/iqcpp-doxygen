@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['generic_46',['generic',['../classvex_1_1generic.html#a276066821d926d5bdc0a77a2167fbdb2',1,'vex::generic::generic()'],['../classvex_1_1generic.html',1,'vex::generic']]],
+  ['generic_46',['generic',['../classvex_1_1generic.html',1,'vex::generic'],['../classvex_1_1generic.html#a276066821d926d5bdc0a77a2167fbdb2',1,'vex::generic::generic()']]],
   ['gesture_47',['gesture',['../classvex_1_1optical_1_1gesture.html',1,'vex::optical']]],
   ['gesturedisable_48',['gestureDisable',['../classvex_1_1optical.html#a90f30476f0b6a9c21993ae8d5bb1839e',1,'vex::optical']]],
   ['gesturedown_49',['gestureDown',['../classvex_1_1optical.html#aa8ca02369f0a20e99f9451bfccbecbb0',1,'vex::optical']]],
@@ -15,5 +15,5 @@ var searchData=
   ['getledmode_58',['getLedMode',['../classvex_1_1vision.html#a1333d087a7531df50893da6f3e89c4ae',1,'vex::vision']]],
   ['getrgb_59',['getRgb',['../classvex_1_1optical.html#ac3b30090c8e8302abf96057072a4d34a',1,'vex::optical']]],
   ['getturntype_60',['getTurnType',['../classvex_1_1gyro.html#a7ee601e8c425c4de9f17e9385fabdf6c',1,'vex::gyro']]],
-  ['gyro_61',['gyro',['../classvex_1_1gyro.html#a8e1c01d669021703c94848d11ac9a500',1,'vex::gyro::gyro()'],['../classvex_1_1gyro.html',1,'vex::gyro']]]
+  ['gyro_61',['gyro',['../classvex_1_1gyro.html',1,'vex::gyro'],['../classvex_1_1gyro.html#a8e1c01d669021703c94848d11ac9a500',1,'vex::gyro::gyro()']]]
 ];

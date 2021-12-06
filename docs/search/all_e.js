@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['object_94',['object',['../classvex_1_1vision_1_1object.html#ac15ebaf53479adb0d3aec59ba4caae27',1,'vex::vision::object::object()'],['../classvex_1_1vision_1_1object.html',1,'vex::vision::object']]],
+  ['object_94',['object',['../classvex_1_1vision_1_1object.html',1,'vex::vision::object'],['../classvex_1_1vision_1_1object.html#ac15ebaf53479adb0d3aec59ba4caae27',1,'vex::vision::object::object()']]],
   ['objectcount_95',['objectCount',['../classvex_1_1vision.html#ada9d4dd15bf55cccd1a268cd19defa43',1,'vex::vision']]],
   ['objectdetected_96',['objectDetected',['../classvex_1_1colorsensor.html#af09422024bde958c97137946eda2f852',1,'vex::colorsensor::objectDetected()'],['../classvex_1_1optical.html#a1f17f369eb5782bb80b2996ce717837b',1,'vex::optical::objectDetected()'],['../classvex_1_1sonar.html#a520e0c95eb7fde51e4b07243fbe4aaa3',1,'vex::sonar::objectDetected()']]],
   ['objectdetectthreshold_97',['objectDetectThreshold',['../classvex_1_1optical.html#a1c32500ee677a6b9e16a301e8e546ab4',1,'vex::optical']]],
@@ -12,7 +12,7 @@ var searchData=
   ['objectvelocity_103',['objectVelocity',['../classvex_1_1distance.html#ac62b87307e8231242ae09797aa621dc9',1,'vex::distance']]],
   ['off_104',['off',['../classvex_1_1touchled.html#ae649f463708a0e9801cad387c86d2e86',1,'vex::touchled']]],
   ['on_105',['on',['../classvex_1_1touchled.html#ad8bf91d77c82716e83ebee4d1d2a016d',1,'vex::touchled::on(colorType color, uint32_t brightness=100)'],['../classvex_1_1touchled.html#a624cf74ebc61639dbe58abc6f1aec1f2',1,'vex::touchled::on(uint32_t hue, uint32_t brightness=100)'],['../classvex_1_1touchled.html#a77d9d87ec71feb4b1ff5f677b048354c',1,'vex::touchled::on(uint8_t red, uint8_t green, uint8_t blue, uint32_t brightness=100)']]],
-  ['optical_106',['optical',['../classvex_1_1optical.html#a61025307149c1d8a293dc9e0b04e167c',1,'vex::optical::optical()'],['../classvex_1_1optical.html',1,'vex::optical']]],
+  ['optical_106',['optical',['../classvex_1_1optical.html',1,'vex::optical'],['../classvex_1_1optical.html#a61025307149c1d8a293dc9e0b04e167c',1,'vex::optical::optical()']]],
   ['originx_107',['originX',['../classvex_1_1vision_1_1object.html#ad9a20bddce4483f2fd5a9c9a12dc4f51',1,'vex::vision::object']]],
   ['originy_108',['originY',['../classvex_1_1vision_1_1object.html#afbb20ee76c5d49478da92089ce198bf7',1,'vex::vision::object']]],
   ['owner_109',['owner',['../classvex_1_1semaphore.html#ad43abb26a25b791b85860e40c72a635b',1,'vex::semaphore']]]
