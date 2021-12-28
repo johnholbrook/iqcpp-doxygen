@@ -5,7 +5,7 @@ var searchData=
   ['device_29',['device',['../classvex_1_1device.html',1,'vex']]],
   ['devices_30',['devices',['../classvex_1_1devices.html',1,'vex']]],
   ['direction_31',['direction',['../classvex_1_1motor.html#a475dd269fd374657b9975dbe3e0bd37f',1,'vex::motor::direction()'],['../classvex_1_1motor__group.html#a76e69f12797be8e8d2def02b2df3b7f9',1,'vex::motor_group::direction()']]],
-  ['distance_32',['distance',['../classvex_1_1distance.html',1,'vex::distance'],['../classvex_1_1distance.html#a432b3103c8d3e16aebdc581f0f499d10',1,'vex::distance::distance()'],['../classvex_1_1sonar.html#a5a13892b1b29ed9bd1f3e8bf6ab871fb',1,'vex::sonar::distance()']]],
+  ['distance_32',['distance',['../classvex_1_1distance.html#a432b3103c8d3e16aebdc581f0f499d10',1,'vex::distance::distance()'],['../classvex_1_1sonar.html#a5a13892b1b29ed9bd1f3e8bf6ab871fb',1,'vex::sonar::distance()'],['../classvex_1_1distance.html',1,'vex::distance']]],
   ['drawcircle_33',['drawCircle',['../classvex_1_1brain_1_1lcd.html#ada5b9b231de3c678f368e04f46469ede',1,'vex::brain::lcd::drawCircle(int x, int y, int radius)'],['../classvex_1_1brain_1_1lcd.html#a17a223ab28e8ffe380ffe25033e32905',1,'vex::brain::lcd::drawCircle(int x, int y, int radius, colorType color)']]],
   ['drawline_34',['drawLine',['../classvex_1_1brain_1_1lcd.html#ae4908ad5a40a2445781a96f4bafaf3fe',1,'vex::brain::lcd']]],
   ['drawpixel_35',['drawPixel',['../classvex_1_1brain_1_1lcd.html#af3a3677203879a303789c7b8cd144f2b',1,'vex::brain::lcd']]],
