@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="iqcpp.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">VEXcode IQ C++
-   &#160;<span id="projectnumber">Unofficial documentation for version 2.2.2.7</span>
+   &#160;<span id="projectnumber">Unofficial documentation for version 2.3.0.108</span>
    </div>
   </td>
  </tr>
@@ -202,78 +202,81 @@ $(function() {
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160; </div>
 <div class="line"><a name="l00291"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a905d8613ae00552b20f8bd92c32016ee">  291</a></span>&#160;      <span class="keywordtype">bool</span>            <a class="code" href="classvex_1_1motor.html#a905d8613ae00552b20f8bd92c32016ee">isDone</a>( <span class="keywordtype">void</span> );</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160; </div>
-<div class="line"><a name="l00296"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#af577d822c7b6373e66ac81b496a14d64">  296</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#af577d822c7b6373e66ac81b496a14d64">stop</a>( <span class="keywordtype">void</span> );</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160; </div>
-<div class="line"><a name="l00302"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a7bdf7f0e0f5db59e42235d76e626d129">  302</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#a7bdf7f0e0f5db59e42235d76e626d129">stop</a>( brakeType mode );</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      </div>
-<div class="line"><a name="l00309"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a2a91914809f0ac7cd08682892f5d2cc9">  309</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#a2a91914809f0ac7cd08682892f5d2cc9">setMaxTorque</a>( <span class="keywordtype">double</span> value, percentUnits units );</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160; </div>
-<div class="line"><a name="l00316"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a92dee48ffc8a1545bbafd22d921c3c84">  316</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#a92dee48ffc8a1545bbafd22d921c3c84">setMaxTorque</a>( <span class="keywordtype">double</span> value, torqueUnits units );</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;      </div>
-<div class="line"><a name="l00323"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#abe67ebc407c2f003b7aabed8bb7c8193">  323</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#abe67ebc407c2f003b7aabed8bb7c8193">setMaxTorque</a>( <span class="keywordtype">double</span> value, currentUnits units );</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;      </div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      <span class="comment">// sensing</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160; </div>
-<div class="line"><a name="l00331"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a475dd269fd374657b9975dbe3e0bd37f">  331</a></span>&#160;      directionType   <a class="code" href="classvex_1_1motor.html#a475dd269fd374657b9975dbe3e0bd37f">direction</a>( <span class="keywordtype">void</span> );</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160; </div>
-<div class="line"><a name="l00338"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ad647199ccdd40a7f626410dee97ba44e">  338</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ad647199ccdd40a7f626410dee97ba44e">rotation</a>( rotationUnits units );</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160; </div>
-<div class="line"><a name="l00345"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a16746eaf0955f4c9c5d6330834288a59">  345</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#a16746eaf0955f4c9c5d6330834288a59">position</a>( rotationUnits units );</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160; </div>
-<div class="line"><a name="l00352"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">  352</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">velocity</a>( velocityUnits units );</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160; </div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">velocity</a>( percentUnits units ) {</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">velocity</a>( <span class="keyword">static_cast&lt;</span>velocityUnits<span class="keyword">&gt;</span>(units) );</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;      };</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160; </div>
-<div class="line"><a name="l00363"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#af998acb18a9db478c80c0bd5f363cb14">  363</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#af998acb18a9db478c80c0bd5f363cb14">current</a>( currentUnits units = currentUnits::amp  );</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160; </div>
-<div class="line"><a name="l00370"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ab0a324f9bbf40934d8ded87bdc6fc46e">  370</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ab0a324f9bbf40934d8ded87bdc6fc46e">current</a>( percentUnits units );</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160; </div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;      <span class="comment">// these are all V5 compatibility functions and do not return any valid values</span></div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      <span class="comment">// data from the motor for these is not available on IQ</span></div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160; </div>
-<div class="line"><a name="l00380"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a828f772fd1def4387ef5f0c2483a7f38">  380</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#a828f772fd1def4387ef5f0c2483a7f38">voltage</a>( voltageUnits units = voltageUnits::volt );</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;      </div>
-<div class="line"><a name="l00387"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ad28191e6a53a12411ed90d36c47b075d">  387</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ad28191e6a53a12411ed90d36c47b075d">power</a>( powerUnits units = powerUnits::watt );</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160; </div>
-<div class="line"><a name="l00394"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a5a4649c853bcde6aade572b63f82adf3">  394</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#a5a4649c853bcde6aade572b63f82adf3">torque</a>( torqueUnits units = torqueUnits::Nm );</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160; </div>
-<div class="line"><a name="l00401"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ab74a3326ec8d0510c9e9eca86654e84e">  401</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ab74a3326ec8d0510c9e9eca86654e84e">efficiency</a>( percentUnits units = percentUnits::pct );</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160; </div>
-<div class="line"><a name="l00408"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a9cc3d4cd0d339f73c4824e6df0e601b1">  408</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#a9cc3d4cd0d339f73c4824e6df0e601b1">temperature</a>( percentUnits units = percentUnits::pct );</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160; </div>
-<div class="line"><a name="l00415"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ae536fa5573b78ed376ccde8e1abc793d">  415</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ae536fa5573b78ed376ccde8e1abc793d">temperature</a>( temperatureUnits units );</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160; </div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;      </div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;      int32_t         getTimeout();</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    </div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;      int32_t         _timeout;</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;      int16_t         _velocity;</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;      int16_t         _last_velocity;</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;      int32_t         _offset;</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;      <span class="keywordtype">bool</span>            _bReverse;</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;      brakeType       _brakeMode;</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;      <span class="keywordtype">bool</span>            _spinMode;</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;      int32_t         _flagDelay;</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;      int32_t         _initDelay;</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;      <span class="keywordtype">float</span>           _gearRatio;</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;      </div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;      <span class="keywordtype">void</span>            defaultStopping( brakeType mode );</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      <span class="keywordtype">bool</span>            isSpinningMode( <span class="keywordtype">void</span> );</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160; </div>
+<div class="line"><a name="l00298"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#af577d822c7b6373e66ac81b496a14d64">  298</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#af577d822c7b6373e66ac81b496a14d64">stop</a>( <span class="keywordtype">void</span> );</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160; </div>
+<div class="line"><a name="l00304"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a7bdf7f0e0f5db59e42235d76e626d129">  304</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#a7bdf7f0e0f5db59e42235d76e626d129">stop</a>( brakeType mode );</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      </div>
+<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a2a91914809f0ac7cd08682892f5d2cc9">  311</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#a2a91914809f0ac7cd08682892f5d2cc9">setMaxTorque</a>( <span class="keywordtype">double</span> value, percentUnits units );</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160; </div>
+<div class="line"><a name="l00318"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a92dee48ffc8a1545bbafd22d921c3c84">  318</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#a92dee48ffc8a1545bbafd22d921c3c84">setMaxTorque</a>( <span class="keywordtype">double</span> value, torqueUnits units );</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;      </div>
+<div class="line"><a name="l00325"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#abe67ebc407c2f003b7aabed8bb7c8193">  325</a></span>&#160;      <span class="keywordtype">void</span>            <a class="code" href="classvex_1_1motor.html#abe67ebc407c2f003b7aabed8bb7c8193">setMaxTorque</a>( <span class="keywordtype">double</span> value, currentUnits units );</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;      </div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      <span class="comment">// sensing</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160; </div>
+<div class="line"><a name="l00333"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a475dd269fd374657b9975dbe3e0bd37f">  333</a></span>&#160;      directionType   <a class="code" href="classvex_1_1motor.html#a475dd269fd374657b9975dbe3e0bd37f">direction</a>( <span class="keywordtype">void</span> );</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160; </div>
+<div class="line"><a name="l00340"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ad647199ccdd40a7f626410dee97ba44e">  340</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ad647199ccdd40a7f626410dee97ba44e">rotation</a>( rotationUnits units );</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
+<div class="line"><a name="l00347"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a16746eaf0955f4c9c5d6330834288a59">  347</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#a16746eaf0955f4c9c5d6330834288a59">position</a>( rotationUnits units );</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160; </div>
+<div class="line"><a name="l00354"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">  354</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">velocity</a>( velocityUnits units );</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">velocity</a>( percentUnits units ) {</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">velocity</a>( <span class="keyword">static_cast&lt;</span>velocityUnits<span class="keyword">&gt;</span>(units) );</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;      };</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160; </div>
+<div class="line"><a name="l00365"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#af998acb18a9db478c80c0bd5f363cb14">  365</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#af998acb18a9db478c80c0bd5f363cb14">current</a>( currentUnits units = currentUnits::amp  );</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160; </div>
+<div class="line"><a name="l00372"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ab0a324f9bbf40934d8ded87bdc6fc46e">  372</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ab0a324f9bbf40934d8ded87bdc6fc46e">current</a>( percentUnits units );</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160; </div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      <span class="comment">// these are all V5 compatibility functions and do not return any valid values</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;      <span class="comment">// data from the motor for these is not available on IQ</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160; </div>
+<div class="line"><a name="l00382"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a828f772fd1def4387ef5f0c2483a7f38">  382</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#a828f772fd1def4387ef5f0c2483a7f38">voltage</a>( voltageUnits units = voltageUnits::volt );</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;      </div>
+<div class="line"><a name="l00389"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ad28191e6a53a12411ed90d36c47b075d">  389</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ad28191e6a53a12411ed90d36c47b075d">power</a>( powerUnits units = powerUnits::watt );</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160; </div>
+<div class="line"><a name="l00396"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a5a4649c853bcde6aade572b63f82adf3">  396</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#a5a4649c853bcde6aade572b63f82adf3">torque</a>( torqueUnits units = torqueUnits::Nm );</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160; </div>
+<div class="line"><a name="l00403"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ab74a3326ec8d0510c9e9eca86654e84e">  403</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ab74a3326ec8d0510c9e9eca86654e84e">efficiency</a>( percentUnits units = percentUnits::pct );</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160; </div>
+<div class="line"><a name="l00410"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#a9cc3d4cd0d339f73c4824e6df0e601b1">  410</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#a9cc3d4cd0d339f73c4824e6df0e601b1">temperature</a>( percentUnits units = percentUnits::pct );</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160; </div>
+<div class="line"><a name="l00417"></a><span class="lineno"><a class="line" href="classvex_1_1motor.html#ae536fa5573b78ed376ccde8e1abc793d">  417</a></span>&#160;      <span class="keywordtype">double</span>          <a class="code" href="classvex_1_1motor.html#ae536fa5573b78ed376ccde8e1abc793d">temperature</a>( temperatureUnits units );</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160; </div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;      </div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;      int32_t         getTimeout();</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    </div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;      int32_t         _timeout;</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;      int16_t         _velocity;</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;      int16_t         _last_velocity;</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;      int32_t         _offset;</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;      <span class="keywordtype">bool</span>            _bReverse;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;      brakeType       _brakeMode;</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;      <span class="keywordtype">bool</span>            _spinMode;</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;      int32_t         _flagDelay;</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;      int32_t         _initDelay;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;      <span class="keywordtype">float</span>           _gearRatio;</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;      </div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;      <span class="keywordtype">bool</span>            zeroPositionFlag( <span class="keywordtype">void</span> );</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160; </div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;      <span class="keywordtype">double</span>          velocityToScaled( int32_t <a class="code" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">velocity</a>, velocityUnits units );</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;      int32_t         scaledToVelocity( <span class="keywordtype">double</span> value, velocityUnits units );</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;      <span class="keywordtype">double</span>          encoderToScaled( int32_t counts, rotationUnits units );</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;      int32_t         scaledToEncoder( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1motor.html#a16746eaf0955f4c9c5d6330834288a59">position</a>, rotationUnits units );</div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;      <span class="keywordtype">double</span>          torqueToCurrent( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1motor.html#a5a4649c853bcde6aade572b63f82adf3">torque</a> );</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;  };</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;};</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160; </div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// VEX_MOTOR_CLASS_H</span></div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;      <span class="keywordtype">void</span>            defaultStopping( brakeType mode );</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;      </div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;      <span class="keywordtype">bool</span>            zeroPositionFlag( <span class="keywordtype">void</span> );</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;      uint8_t         modeGet( <span class="keywordtype">void</span> );</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160; </div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;      <span class="keywordtype">double</span>          velocityToScaled( int32_t <a class="code" href="classvex_1_1motor.html#afa5cc4655ec5f496879d107882eaf90e">velocity</a>, velocityUnits units );</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;      int32_t         scaledToVelocity( <span class="keywordtype">double</span> value, velocityUnits units );</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;      <span class="keywordtype">double</span>          encoderToScaled( int32_t counts, rotationUnits units );</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;      int32_t         scaledToEncoder( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1motor.html#a16746eaf0955f4c9c5d6330834288a59">position</a>, rotationUnits units );</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;      <span class="keywordtype">double</span>          torqueToCurrent( <span class="keywordtype">double</span> <a class="code" href="classvex_1_1motor.html#a5a4649c853bcde6aade572b63f82adf3">torque</a> );</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;  };</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;};</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160; </div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// VEX_MOTOR_CLASS_H</span></div>
 <div class="ttc" id="aclassvex_1_1device_html"><div class="ttname"><a href="classvex_1_1device.html">vex::device</a></div><div class="ttdef"><b>Definition:</b> <a href="vex__device_8h_source.html#l00026">vex_device.h:26</a></div></div>
 <div class="ttc" id="aclassvex_1_1motor_html"><div class="ttname"><a href="classvex_1_1motor.html">vex::motor</a></div><div class="ttdoc">Use the motor class to control motor devices.</div><div class="ttdef"><b>Definition:</b> <a href="vex__motor_8h_source.html#l00034">vex_motor.h:34</a></div></div>
 <div class="ttc" id="aclassvex_1_1motor_html_a01c6e16373f5a03f138af1fe22e21f3e"><div class="ttname"><a href="classvex_1_1motor.html#a01c6e16373f5a03f138af1fe22e21f3e">vex::motor::setVelocity</a></div><div class="ttdeci">void setVelocity(double velocity, velocityUnits units)</div><div class="ttdoc">Sets the velocity of the motor based on the parameters set in the command. This command will not run ...</div></div>
