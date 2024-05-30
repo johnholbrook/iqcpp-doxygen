@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['axis_238',['axis',['../classvex_1_1controller_1_1axis.html',1,'vex::controller']]]
+  ['axis_0',['axis',['../classvex_1_1controller_1_1axis.html',1,'vex::controller']]]
 ];
